@@ -1,0 +1,219 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+/* min 1440*/
+@media screen and (min-width: 1440px) {
+    .sticky {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    .menu {
+        position: sticky;
+        top: 47px;
+        z-index: 3;
+    }
+
+}
+
+
+/* 1310*/
+@media screen and (max-width: 1310px) {
+
+    .meet__block {
+        /* margin: 0 142px 0 168px; */
+        margin: 0 50px;
+    }
+
+    .meet_info {
+        max-width: 420px;
+        padding: 30px;
+        position: relative;
+        top: 24%;
+        left: 53%;
+    }
+    
+    .h2__meet {
+        margin-bottom: 18px;
+        font-size: 26px;
+        line-height: normal;
+    }
+    
+    .p__meet {
+        margin-bottom: 20px;
+        color: var(--color-ohre-med);
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+}
+
+/* 900*/
+@media screen and (max-width: 900px) {
+
+    .menu_burger {
+        display: block;
+        color: #B4604D;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.8px;
+    }
+
+    .menu__ul_1 {
+        display: none;
+    }
+
+    .dae_logo {
+    transform: translate(23%);
+    }
+
+    .meet_info {
+        max-width: 350px;
+        padding: 20px;
+        position: relative;
+        top: 50%;
+        left: 23%;
+    }
+    
+    .h2__meet {
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: normal;
+    }
+    
+    .p__meet {
+        margin-bottom: 16px;
+        color: var(--color-ohre-med);
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+/* 767*/
+@media screen and (max-width: 767px) {
+
+    .meet {
+        padding: 20px 0 20px 0;
+    }
+
+    .meet__block {
+        margin: 0 30px 0 30px;
+        height: 947px;
+
+    }
+
+
+}
+
+
+/* 480 */
+@media screen and (max-width: 480px) {
+
+    .sticky_link {
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .dae_logo {
+        display: none;
+    }
+
+    .dae_logo2 {
+        display: block;
+        margin: 5px auto 15px;
+    }
+
+    .header {
+        min-height: 235px;
+        padding-top: 130px;
+    }
+
+    .ready__flex {
+        row-gap: 20px;
+        padding-top: 50px;
+    }
+
+    .feel_flex {
+        padding: 20px;
+    }
+
+    .p__feel {
+        padding-bottom: 15px;
+    }
+
+    .meet__block {
+        background-position: center;
+    }
+
+    .meet_info {
+        max-width: 300px;
+        padding: 15px;
+        position: relative;
+        top: 45%;
+        left: 12%;
+    }
+    
+    .h2__meet {
+        margin-bottom: 12px;
+        font-size: 20px;
+        line-height: normal;
+    }
+    
+    .p__meet {
+        margin-bottom: 16px;
+        color: var(--color-ohre-med);
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer_left {
+        padding-bottom: 40px;
+    }
+
+    .footer_ul:first-child {
+        padding-right: 15px;
+    }
+
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+
+    .ready {
+        min-height: 220px;
+    }
+    .ready__flex {
+        padding: 20px 0 0 10px;
+    }
+
+    .meet__block {
+        margin: 0;
+    }
+
+    .meet_info {
+        max-width: 300px;
+        max-height: 510px;
+        padding: 10px;
+        position: relative;
+        top: 55%;
+        left: 4%;
+    }
+    
+    .h2__meet {
+        margin-bottom: 5px;
+        font-size: 20px;
+        line-height: normal;
+    }
+    
+    .p__meet {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+}
